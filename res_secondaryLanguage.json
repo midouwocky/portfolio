@@ -1,7 +1,7 @@
 {
   "basic_info": {
     "description_header": "Bonjour",
-    "description": "👋 Je m'appelle Ahmed et j'ai plus de 5 ans d'expérience dans diverses technologies. J'ai d'excellentes capacités de résolution de problèmes ⭐, et j'essaie toujours de créer un excellent code en suivant les meilleures pratiques 🤓. J'ai une connaissance approfondie de l'architecture logicielle et des modèles de conception pour m'assurer que mes solutions sont optimales et évolutives 📈, que je travaille sur des projets de développement Web ou de développement d'applications. Je prends plaisir à utiliser les technologies les plus récentes pour m'assurer que mon travail est toujours efficace et évolutif. Je me suis fait un nom en tant qu'ingénieur logiciel qui s'est engagé à trouver des solutions élégantes à des problèmes difficiles et à produire un travail de haute qualité tout au long de ma carrière. Je suis toujours à la recherche de nouvelles tâches et d'occasions d'élargir mes connaissances et mes capacités. Merci de m'avoir choisi 💜",
+    "description": "👋 Je m'appelle Ahmed, ingénieur Full-Stack avec 8 ans d'expérience dans la conception et le développement d'applications web complexes et performantes. J'ai fait mes preuves en travaillant sur des systèmes distribués dans des domaines variés tels que la santé, les ressources humaines, l'IoT, la gestion de files d'attente et les réseaux sociaux. Je maîtrise les architectures orientées services, les pipelines CI/CD, l'évolutivité dans le cloud et la mise en œuvre de flux de données sécurisés. Tout au long de ma carrière, j'ai travaillé avec les technologies les plus récentes et les méthodologies modernes, en suivant toujours les meilleures pratiques 🤓 et en appliquant les principes du code propre. Je suis engagé à trouver des solutions élégantes à des problèmes difficiles et à produire un travail de haute qualité et évolutif 📈. Actuellement en tant que Lead Full-Stack, je dirige une équipe et je suis toujours désireux de relever de nouveaux défis et d'élargir mes connaissances. Merci de m'avoir choisi 💜",
     "section_name": {
       "about": "À propos de moi",
       "projects": "Projets",
@@ -294,13 +294,158 @@
           "name": "Amazon web services"
         }
       ]
+    },
+    {
+      "title": "LXConnect",
+      "startDate": "2023",
+      "description": "LXConnect est une plateforme centralisée de gestion des appareils électroniques, développée pour la division IoT de LACROIX. La plateforme offre des capacités complètes de gestion d'appareils, permettant aux organisations de surveiller, contrôler et maintenir leurs appareils électroniques efficacement. Elle offre une surveillance en temps réel, la configuration d'appareils et une intégration transparente avec divers écosystèmes IoT.",
+      "role": "J'ai contribué au développement de microservices (API) pour LXConnect en tant qu'ingénieur full-stack. J'ai mené une analyse approfondie des besoins fonctionnels et techniques en collaboration avec les équipes métier. J'ai conçu et développé des microservices en utilisant Java 17 et Spring Boot 3, en implémentant des fonctionnalités de gestion des appareils électroniques. J'ai créé et exécuté des tests unitaires en utilisant JUnit, Mockito et AssertJ, en suivant les meilleures pratiques de développement piloté par les tests (TDD). J'ai géré les déploiements conteneurisés avec Kubernetes et orchestré les services de manière efficace. J'ai mis en œuvre des pipelines d'intégration continue et de déploiement continu (CI/CD) en utilisant GitLab CI.",
+      "images": [
+        "images/portfolio/lacroix/logo-433x107.webp"
+      ],
+      "url": "https://www.lacroix-group.com/",
+      "technologies": [
+        {
+          "class": "devicon-java-plain",
+          "name": "Java 17"
+        },
+        {
+          "class": "devicon-spring-plain",
+          "name": "Spring Boot 3"
+        },
+        {
+          "class": "devicon-postgresql-plain",
+          "name": "PostgreSQL"
+        },
+        {
+          "class": "devicon-docker-plain",
+          "name": "Docker"
+        },
+        {
+          "class": "devicon-kubernetes-plain",
+          "name": "Kubernetes"
+        },
+        {
+          "class": "devicon-redis-plain",
+          "name": "Redis"
+        },
+        {
+          "class": "devicon-apachekafka-original",
+          "name": "Kafka"
+        },
+        {
+          "class": "devicon-graphql-plain",
+          "name": "GraphQL"
+        }
+      ]
+    },
+    {
+      "title": "Plateforme Santé Consentia",
+      "startDate": "2024",
+      "description": "Une application complète basée sur Spring/Angular conçue pour automatiser les tâches dans le secteur de la santé. La plateforme rationalise les opérations de santé, améliore l'efficacité et améliore les soins aux patients grâce à des flux de travail automatisés et une gestion intelligente des tâches. Elle fournit aux professionnels de la santé des outils pour gérer leurs opérations quotidiennes plus efficacement.",
+      "role": "En tant que Lead Full-Stack Developer, j'ai dirigé une équipe de 5 développeurs sur ce projet d'automatisation de la santé. J'ai mené une analyse fonctionnelle et animé des réunions de planification avec les parties prenantes pour recueillir les besoins des utilisateurs. J'ai contribué à la rédaction des spécifications fonctionnelles et préparé un document de spécification technique détaillé. J'ai conçu l'application et défini une architecture technique monolithique en accord avec les objectifs du projet. J'ai développé l'application en utilisant Java (Spring Boot 3, Spring Data, Spring Security) et Angular 19 avec Tailwind CSS. J'ai mis en œuvre des mécanismes de contrôle d'accès utilisateur et de sécurité en utilisant JWT et Spring Security. J'ai écrit des tests unitaires pour garantir la qualité et la fiabilité du code. J'ai mis en place des pipelines CI/CD pour l'environnement d'assurance qualité en utilisant GitHub Actions et Docker.",
+      "images": [
+        "images/portfolio/consentia/logo.svg"
+      ],
+      "url": "",
+      "technologies": [
+        {
+          "class": "devicon-java-plain",
+          "name": "Java"
+        },
+        {
+          "class": "devicon-spring-plain",
+          "name": "Spring Boot 3"
+        },
+        {
+          "class": "devicon-angularjs-plain",
+          "name": "Angular 19"
+        },
+        {
+          "class": "devicon-typescript-plain",
+          "name": "TypeScript"
+        },
+        {
+          "class": "devicon-postgresql-plain",
+          "name": "PostgreSQL"
+        },
+        {
+          "class": "devicon-docker-plain",
+          "name": "Docker"
+        },
+        {
+          "class": "devicon-git-plain",
+          "name": "Git"
+        }
+      ]
     }
   ],
   "experience": [
     {
+      "company": "Consentia",
+      "title": "Lead full-stack",
+      "years": "12.2024 - présent",
+      "mainTech": [
+        "Spring Boot 3",
+        "Angular 19"
+      ],
+      "icon": "fa-java",
+      "technologies": [
+        "Java",
+        "Spring Boot 3",
+        "Spring Data",
+        "Spring Security",
+        "JWT",
+        "Angular 19",
+        "Tailwind CSS",
+        "PostgreSQL",
+        "Hibernate",
+        "REST API",
+        "Postman",
+        "Jira",
+        "Confluence",
+        "Git",
+        "GitHub",
+        "GitHub Actions",
+        "Docker",
+        "IntelliJ IDEA",
+        "VS Code",
+        "Cursor"
+      ]
+    },
+    {
+      "company": "LACROIX",
+      "title": "Ingénieur full-stack",
+      "years": "10.2023 - 10.2024",
+      "mainTech": [
+        "Java 17",
+        "Spring Boot 3"
+      ],
+      "icon": "fa-java",
+      "technologies": [
+        "Java 17",
+        "Spring Boot 2/3",
+        "REST API",
+        "GraphQL",
+        "PostgreSQL (JSONB)",
+        "Docker",
+        "Kubernetes",
+        "Warp 10",
+        "Redis",
+        "Kafka",
+        "API Curio",
+        "Swagger",
+        "Jira",
+        "Confluence",
+        "SonarQube",
+        "IntelliJ IDEA",
+        "Insomnia"
+      ]
+    },
+    {
       "company": "Keeneye solutions",
       "title": "Senior software engineer",
-      "years": "01.2021 - present",
+      "years": "01.2021 - 08.2023",
       "mainTech": [
         "NodeJS"
       ],

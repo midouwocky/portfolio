@@ -1,7 +1,7 @@
 {
   "basic_info": {
     "description_header": "Hi",
-    "description": "👋 I'm Ahmed, and I have over 5 years of expertise working with a variety of technologies. I have excellent problem-solving abilities ⭐, and I always try to create excellent code by following best practices 🤓. I have a thorough grasp of software architecture and design patterns to make sure that my solutions are optimal and scalable 📈, whether I'm working on web development or app development projects. I take pleasure in utilizing the newest technologies to make sure that my work is consistently efficient and upgradable. I've made a name for myself as a software engineer who is committed to finding elegant solutions to challenging issues and producing high-quality work throughout my career. I am always on the lookout for fresh tasks and chances to broaden my knowledge and abilities. Thank you for choosing me 💜",
+    "description": "👋 I'm Ahmed, a Full-Stack Engineer with 8 years of experience in designing and developing complex, high-performance web applications. I've proven myself working on distributed systems across diverse domains such as healthcare, human resources, IoT, queue management, and social networks. I master service-oriented architectures, CI/CD pipelines, cloud scalability, and the implementation of secure data flows. Throughout my career, I've worked with cutting-edge technologies and methodologies, always following best practices 🤓 and applying clean code principles. I'm committed to finding elegant solutions to challenging problems and producing high-quality, scalable work 📈. Currently leading a team as a Full-Stack Lead, I'm always eager to take on new challenges and expand my knowledge. Thank you for choosing me 💜",
     "section_name": {
       "about": "About me",
       "projects": "Projects",
@@ -294,13 +294,158 @@
           "name": "Amazon web services"
         }
       ]
+    },
+    {
+      "title": "LXConnect",
+      "startDate": "2023",
+      "description": "LXConnect is a centralized platform for managing electronic devices, developed for LACROIX's IoT division. The platform provides comprehensive device management capabilities, enabling organizations to monitor, control, and maintain their electronic devices efficiently. It offers real-time monitoring, device configuration, and seamless integration with various IoT ecosystems.",
+      "role": "I contributed to the development of microservices (APIs) for LXConnect as a full-stack engineer. I conducted in-depth analysis of functional and technical requirements in collaboration with business teams. I designed and developed microservices using Java 17 and Spring Boot 3, implementing electronic device management features. I created and executed unit tests using JUnit, Mockito, and AssertJ, following Test-Driven Development (TDD) best practices. I managed containerized deployments with Kubernetes and orchestrated services efficiently. I implemented CI/CD pipelines using GitLab CI.",
+      "images": [
+        "images/portfolio/lacroix/logo-433x107.webp"
+      ],
+      "url": "https://www.lacroix-group.com/",
+      "technologies": [
+        {
+          "class": "devicon-java-plain",
+          "name": "Java 17"
+        },
+        {
+          "class": "devicon-spring-plain",
+          "name": "Spring Boot 3"
+        },
+        {
+          "class": "devicon-postgresql-plain",
+          "name": "PostgreSQL"
+        },
+        {
+          "class": "devicon-docker-plain",
+          "name": "Docker"
+        },
+        {
+          "class": "devicon-kubernetes-plain",
+          "name": "Kubernetes"
+        },
+        {
+          "class": "devicon-redis-plain",
+          "name": "Redis"
+        },
+        {
+          "class": "devicon-apachekafka-original",
+          "name": "Kafka"
+        },
+        {
+          "class": "devicon-graphql-plain",
+          "name": "GraphQL"
+        }
+      ]
+    },
+    {
+      "title": "Consentia Health Platform",
+      "startDate": "2024",
+      "description": "A comprehensive Spring/Angular-based application designed to automate tasks in the healthcare sector. The platform streamlines healthcare operations, improves efficiency, and enhances patient care through automated workflows and intelligent task management. It provides healthcare professionals with tools to manage their daily operations more effectively.",
+      "role": "As Lead Full-Stack Developer, I led a team of 5 developers on this healthcare automation project. I conducted functional analysis and facilitated planning meetings with stakeholders to gather user requirements. I contributed to writing functional specifications and prepared a detailed technical specification document. I designed the application and defined a monolithic technical architecture aligned with project objectives. I developed the application using Java (Spring Boot 3, Spring Data, Spring Security) and Angular 19 with Tailwind CSS. I implemented user access control and security mechanisms using JWT and Spring Security. I wrote unit tests to ensure code quality and reliability. I set up CI/CD pipelines for the QA environment using GitHub Actions and Docker.",
+      "images": [
+        "images/portfolio/consentia/logo.svg"
+      ],
+      "url": "",
+      "technologies": [
+        {
+          "class": "devicon-java-plain",
+          "name": "Java"
+        },
+        {
+          "class": "devicon-spring-plain",
+          "name": "Spring Boot 3"
+        },
+        {
+          "class": "devicon-angularjs-plain",
+          "name": "Angular 19"
+        },
+        {
+          "class": "devicon-typescript-plain",
+          "name": "TypeScript"
+        },
+        {
+          "class": "devicon-postgresql-plain",
+          "name": "PostgreSQL"
+        },
+        {
+          "class": "devicon-docker-plain",
+          "name": "Docker"
+        },
+        {
+          "class": "devicon-git-plain",
+          "name": "Git"
+        }
+      ]
     }
   ],
   "experience": [
     {
+      "company": "Consentia",
+      "title": "Lead full-stack",
+      "years": "12.2024 - present",
+      "mainTech": [
+        "Spring Boot 3",
+        "Angular 19"
+      ],
+      "icon": "fa-java",
+      "technologies": [
+        "Java",
+        "Spring Boot 3",
+        "Spring Data",
+        "Spring Security",
+        "JWT",
+        "Angular 19",
+        "Tailwind CSS",
+        "PostgreSQL",
+        "Hibernate",
+        "REST API",
+        "Postman",
+        "Jira",
+        "Confluence",
+        "Git",
+        "GitHub",
+        "GitHub Actions",
+        "Docker",
+        "IntelliJ IDEA",
+        "VS Code",
+        "Cursor"
+      ]
+    },
+    {
+      "company": "LACROIX",
+      "title": "Full-stack engineer",
+      "years": "10.2023 - 10.2024",
+      "mainTech": [
+        "Java 17",
+        "Spring Boot 3"
+      ],
+      "icon": "fa-java",
+      "technologies": [
+        "Java 17",
+        "Spring Boot 2/3",
+        "REST API",
+        "GraphQL",
+        "PostgreSQL (JSONB)",
+        "Docker",
+        "Kubernetes",
+        "Warp 10",
+        "Redis",
+        "Kafka",
+        "API Curio",
+        "Swagger",
+        "Jira",
+        "Confluence",
+        "SonarQube",
+        "IntelliJ IDEA",
+        "Insomnia"
+      ]
+    },
+    {
       "company": "Keeneye solutions",
       "title": "Senior software engineer",
-      "years": "01.2021 - present",
+      "years": "01.2021 - 08.2023",
       "mainTech": [
         "NodeJS"
       ],
