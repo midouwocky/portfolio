@@ -34,7 +34,7 @@ class ProjectDetailsModal extends Component {
                 <div className="text-center">
                   <i style={{ fontSize: "300%" }}>
                     <div alt={icons.name} className="svg-img">
-                    <ReactSVG src={'assets/icons/' + icons.uri}/>
+                    <ReactSVG src={`${process.env.PUBLIC_URL}/assets/icons/${icons.uri}`}/>
                     </div>
                     <p className="text-center" style={{ fontSize: "30%" }}>
                       {icons.name}
@@ -47,7 +47,7 @@ class ProjectDetailsModal extends Component {
         });
         if (this.props.data.images) {
           var img = images.map((elem, i) => {
-            return <div key={i} data-src={elem} />;
+            return <div key={i} data-src={`${process.env.PUBLIC_URL}/${elem}`} />;
           });
         }
       }

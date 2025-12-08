@@ -24,8 +24,8 @@ class App extends Component {
     document.documentElement.lang = pickedLanguage;
     var resumePath =
       document.documentElement.lang === window.$primaryLanguage
-        ? `res_primaryLanguage.json`
-        : `res_secondaryLanguage.json`;
+        ? `${process.env.PUBLIC_URL}/res_primaryLanguage.json`
+        : `${process.env.PUBLIC_URL}/res_secondaryLanguage.json`;
     this.loadResumeFromPath(resumePath);
   }
 
@@ -66,7 +66,7 @@ class App extends Component {
 
   loadSharedData() {
     $.ajax({
-      url: `portfolio_shared_data.json`,
+      url: `${process.env.PUBLIC_URL}/portfolio_shared_data.json`,
       dataType: "json",
       cache: false,
       success: function (data) {
