@@ -9,8 +9,14 @@ class Projects extends Component {
     this.state = {
       deps: {},
       detailsModalShow: false,
+      activeIndex: 0,
     };
+    this.carouselRef = React.createRef();
   }
+
+  handleSlideChange = (e) => {
+    this.setState({ activeIndex: e.item });
+  };
 
   render() {
     let detailsModalShow = (data) => {
@@ -68,10 +74,15 @@ class Projects extends Component {
           <div className="col-md-12 mx-auto">
             <div className="row mx-auto">
               <AliceCarousel
+                ref={this.carouselRef}
                 mouseTracking
                 items={projects}
                 responsive={responsive}
                 controlsStrategy="alternate"
+                activeIndex={this.state.activeIndex}
+                onSlideChanged={this.handleSlideChange}
+                disableDotsControls={false}
+                disableButtonsControls={false}
               />
             </div>
           </div>

@@ -64,14 +64,14 @@ class Header extends Component {
               <div className="title-container">
                 <HeaderTitleTypeAnimation />
               </div>
-              <div className="hire-container">
+              {/* <div className="hire-container">
                 <div className="container">
                   <button className="btn-hireme" onClick={this.goToContact}>
                     {" "}
                     Hire Me!
                   </button>
                 </div>
-              </div>
+              </div> */}
               <Switch
                 checked={this.state.checked}
                 onChange={this.onThemeSwitchChange}

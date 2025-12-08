@@ -19,56 +19,6 @@
     "skills": {
       "icons": [
         {
-          "name": "HTML 5",
-          "class": "devicon-html5-plain",
-          "level": "95"
-        },
-        {
-          "name": "CSS 3",
-          "class": "devicon-css3-plain",
-          "level": "95"
-        },
-        {
-          "name": "Angular",
-          "class": "devicon-angularjs-plain",
-          "level": "80"
-        },
-        {
-          "name": "React",
-          "class": "devicon-react-original",
-          "level": "80"
-        },
-        {
-          "name": "TypeScript",
-          "class": "devicon-typescript-plain",
-          "level": "90"
-        },
-        {
-          "name": "JavaScript",
-          "class": "devicon-javascript-plain",
-          "level": "70"
-        },
-        {
-          "name": "Sass",
-          "class": "devicon-sass-original",
-          "level": "75"
-        },
-        {
-          "name": "Bootstrap",
-          "class": "devicon-bootstrap-plain",
-          "level": "85"
-        },
-        {
-          "name": "Ionic",
-          "class": "devicon-ionic-original",
-          "level": "60"
-        },
-        {
-          "name": "Flutter",
-          "class": "devicon-flutter-plain",
-          "level": "60"
-        },
-        {
           "name": "JAVA",
           "class": "devicon-java-plain",
           "level": "65"
@@ -77,6 +27,27 @@
           "name": "Spring",
           "class": "devicon-spring-plain",
           "level": "65"
+        },
+        {
+          "name": "Nodejs",
+          "class": "devicon-nodejs-plain",
+          "level": "60"
+        },
+        {
+          "name": "Express",
+          "class": "devicon-express-original",
+          "level": "60"
+        },
+        {
+          "name": "NestJS",
+          "uri": "nestjs-svgrepo-com.svg",
+          "type": "svg",
+          "level": "70"
+        },
+        {
+          "name": "PostgreSQL",
+          "class": "devicon-postgresql-plain",
+          "level": "70"
         },
         {
           "name": "MySql",
@@ -89,18 +60,85 @@
           "level": "60"
         },
         {
+          "name": "Redis",
+          "class": "devicon-redis-plain",
+          "level": "65"
+        },
+        {
+          "name": "Elasticsearch",
+          "uri": "elasticsearch-svgrepo-com.svg",
+          "type": "svg",
+          "level": "60"
+        },
+        {
+          "name": "GraphQL",
+          "class": "devicon-graphql-plain",
+          "level": "65"
+        },
+        {
+          "name": "Kafka",
+          "class": "devicon-apachekafka-original",
+          "level": "60"
+        },
+        {
+          "name": "HTML 5",
+          "class": "devicon-html5-plain",
+          "level": "95"
+        },
+        {
+          "name": "CSS 3",
+          "class": "devicon-css3-plain",
+          "level": "95"
+        },
+        {
+          "name": "JavaScript",
+          "class": "devicon-javascript-plain",
+          "level": "70"
+        },
+        {
+          "name": "TypeScript",
+          "class": "devicon-typescript-plain",
+          "level": "90"
+        },
+        {
+          "name": "React",
+          "class": "devicon-react-original",
+          "level": "80"
+        },
+        {
+          "name": "Angular",
+          "class": "devicon-angularjs-plain",
+          "level": "80"
+        },
+        {
+          "name": "Sass",
+          "class": "devicon-sass-original",
+          "level": "75"
+        },
+        {
+          "name": "Bootstrap",
+          "class": "devicon-bootstrap-plain",
+          "level": "85"
+        },
+        {
+          "name": "Tailwind CSS",
+          "class": "devicon-tailwindcss-plain",
+          "level": "75"
+        },
+        {
+          "name": "Flutter",
+          "class": "devicon-flutter-plain",
+          "level": "60"
+        },
+        {
           "name": "Firebase",
           "class": "devicon-firebase-plain",
           "level": "60"
         },
         {
-          "name": "Nodejs",
-          "class": "devicon-nodejs-plain",
-          "level": "60"
-        },
-        {
-          "name": "Express",
-          "class": "devicon-express-original",
+          "name": "Algolia",
+          "uri": "algolia-svgrepo-com.svg",
+          "type": "svg",
           "level": "60"
         },
         {
@@ -116,6 +154,11 @@
         {
           "name": "Docker",
           "class": "devicon-docker-plain",
+          "level": "60"
+        },
+        {
+          "name": "Kubernetes",
+          "class": "devicon-kubernetes-plain",
           "level": "60"
         }
       ]

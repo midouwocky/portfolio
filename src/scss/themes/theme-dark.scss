@@ -4,6 +4,15 @@ body[data-theme="dark"] {
    .svg-img svg path{
       fill: white;
     }
+   #skills .svg-img svg {
+      color: white;
+   }
+   #skills .svg-img svg path {
+      fill: white !important;
+   }
+   #skills .svg-img svg * {
+      fill: white !important;
+   }
 
     .square .skills-tile i {
       color: white;

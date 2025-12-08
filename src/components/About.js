@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import { Icon } from "@iconify/react";
-import angularIcon from "@iconify/icons-logos/angular-icon";
+import java from "@iconify/icons-logos/java";
 import nodejsIcon from "@iconify/icons-logos/nodejs-icon";
-import flutterIcon from "@iconify/icons-logos/flutter";
+import angularIcon from "@iconify/icons-logos/angular-icon";
 
 class About extends Component {
   render() {
@@ -31,15 +31,15 @@ class About extends Component {
                     alt="Avatar placeholder"
                   />
                   <Icon
+                      icon={java}
+                      style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
+                  />
+                  <Icon
                     icon={angularIcon}
                     style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
                   />
                   <Icon
                     icon={nodejsIcon}
-                    style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
-                  />
-                  <Icon
-                    icon={flutterIcon}
                     style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
                   />
                 </span>

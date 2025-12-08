@@ -18,10 +18,10 @@ const Contact = ({ resumeBasicInfo }) => {
     setCanSend(false);
     emailjs
     .sendForm(
-      "service_o6thoi9",
-      "template_d872hq1",
+      "service_5fsgl3k",
+      "template_lm0sxif",
       form.current,
-      "jMd9SS1UyU-JIPmvc"
+      "veNm_-dMgTQRYdhSO"
       )
       .then(
         (result) => {

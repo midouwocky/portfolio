@@ -448,6 +448,10 @@ footer a:focus {
   color: black;
   input {
     height: 4rem;
+    font-size: 1.2rem;
+  }
+  textarea {
+    font-size: 1.2rem;
   }
   .btn {
     background: #246a73;
@@ -472,6 +476,50 @@ footer a:focus {
   color: white;
   border-radius: 1rem;
   border: none;
+}
+
+.floating-hire-button {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  z-index: 1000;
+  background-color: #368f8b;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  padding: 18px 45px;
+  font-size: 2rem;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(54, 143, 139, 0.4);
+  transition: all 0.3s ease;
+  animation: pulse 2s infinite;
+
+  &:hover {
+    background-color: #2d7571;
+    transform: scale(1.05);
+    box-shadow: 0 6px 20px rgba(54, 143, 139, 0.6);
+  }
+
+  &:active {
+    transform: scale(0.95);
+  }
+
+  @keyframes pulse {
+    0%, 100% {
+      box-shadow: 0 4px 15px rgba(54, 143, 139, 0.4);
+    }
+    50% {
+      box-shadow: 0 4px 25px rgba(54, 143, 139, 0.7);
+    }
+  }
+
+  @media (max-width: 768px) {
+    font-size: 1.5rem;
+    padding: 15px 35px;
+    bottom: 20px;
+    right: 20px;
+  }
 }
 
 
@@ -614,12 +662,55 @@ footer a:focus {
 }
 /* End square */
 
+.svg-img {
+  display: inline-block;
+  line-height: 1;
+  vertical-align: middle;
+}
 .svg-img svg {
-  width: 3rem;
-  height: 3rem;
+  width: 1em;
+  height: 1em;
+  display: block;
 }
 .svg-img svg path{
-  fill: #212529;
+  fill: currentColor;
+}
+#skills .svg-icon-wrapper {
+  font-family: "devicon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  font-size: 220%;
+}
+#skills .svg-img {
+  font-size: 1em;
+  width: 1em;
+  height: 1em;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 1;
+  margin: 0;
+  padding: 0;
+}
+#skills .svg-img svg {
+  width: 1em;
+  height: 1em;
+  display: block;
+  color: white;
+  filter: brightness(0) invert(1);
+}
+#skills .svg-img svg path {
+  fill: white !important;
+}
+#skills .svg-img svg * {
+  fill: white !important;
+}
+#skills .svg-img svg[fill="#000000"] {
+  fill: white !important;
 }
 
 body .wpex-slider-media {
@@ -631,6 +722,14 @@ body .wpex-slider-media img {
   margin: 0 auto;
 }
 .awssld__content > img {
-  width: auto !important;
-  left: unset !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
+  max-height: 100% !important;
+  object-fit: contain !important;
+  position: absolute !important;
+  top: 50% !important;
+  left: 50% !important;
+  transform: translate(-50%, -50%) !important;
+  margin: auto !important;
 }

@@ -8,6 +8,7 @@ import Experience from "./components/Experience";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import Contact from "./components/Contact";
+import FloatingHireButton from "./components/FloatingHireButton";
 
 class App extends Component {
   constructor(props) {
@@ -138,6 +139,7 @@ class App extends Component {
         />
         <Contact resumeBasicInfo={this.state.resumeData.basic_info} />
         <Footer sharedBasicInfo={this.state.sharedData.basic_info} />
+        <FloatingHireButton />
       </div>
     );
   }
