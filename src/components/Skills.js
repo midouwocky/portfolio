@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import {ReactSVG} from 'react-svg';
+import SvgIcon from "./SvgIcon";
 
 class Skills extends Component {
   render() {
@@ -27,20 +27,7 @@ class Skills extends Component {
               <div className="text-center skills-tile">
                 <i className="svg-icon-wrapper">
                   <div className="svg-img" style={{ display: "inline-block", lineHeight: "1" }}>
-                    <ReactSVG 
-                      src={`${process.env.PUBLIC_URL}/assets/icons/${skills.uri}`}
-                      beforeInjection={(svg) => {
-                        svg.setAttribute('style', 'color: white;');
-                        svg.querySelectorAll('path').forEach(path => {
-                          path.setAttribute('fill', 'white');
-                        });
-                        svg.querySelectorAll('*').forEach(el => {
-                          if (el.getAttribute('fill') === '#000000' || el.getAttribute('fill') === 'black') {
-                            el.setAttribute('fill', 'white');
-                          }
-                        });
-                      }}
-                    />
+                    <SvgIcon src={skills.uri} alt={skills.name} />
                   </div>
                   <p
                     className="text-center"
