@@ -13,6 +13,57 @@
   },
   "projects": [
     {
+      "title": "DELTI",
+      "startDate": "2017",
+      "description": "A comprehensive queue management and appointment booking system designed for multiple industrial sectors. The platform enables businesses to efficiently manage customer queues, schedule appointments, and streamline service operations. It includes both client and provider interfaces, with mobile applications for enhanced accessibility.",
+      "role": "I worked within a technical team of 5 people on developing this queue management and appointment booking system. I gathered functional requirements for both client and provider interfaces and wrote technical specifications. I developed the provider web application using Angular (v4-5), implementing smooth navigation with RxJS and efficient state management. I created back-end services with Java and Spring Boot, ensuring scalability and maintainability. I created and executed unit tests with JUnit, Mockito, and AssertJ, following Behavior-Driven Development (BDD) methodology. I managed version control with Git, containerized services using Docker, and deployed on virtual machines. I worked on mobile application features with Flutter and Dart, using GetX for state management. I implemented cloud-based services on Google Cloud, including Firestore, Cloud Functions, push notifications, dynamic links, Cloud Storage, authentication, and hosting. I configured CI/CD workflows with GitHub Actions and integrated Algolia for advanced search features.",
+      "images": [
+        "images/portfolio/delti/p1.jpg",
+        "images/portfolio/delti/p2.jpg",  
+        "images/portfolio/delti/p3.jpg"
+      ],
+      "url": "",
+      "technologies": [
+        {
+          "class": "devicon-angularjs-plain",
+          "name": "Angular 4-5"
+        },
+        {
+          "class": "devicon-typescript-plain",
+          "name": "TypeScript"
+        },
+        {
+          "class": "devicon-java-plain",
+          "name": "Java"
+        },
+        {
+          "class": "devicon-spring-plain",
+          "name": "Spring Boot"
+        },
+        {
+          "class": "devicon-flutter-plain",
+          "name": "Flutter"
+        },
+        {
+          "class": "devicon-nodejs-plain",
+          "name": "Node.js"
+        },
+        {
+          "class": "devicon-googlecloud-plain",
+          "name": "Google Cloud"
+        },
+        {
+          "class": "devicon-docker-plain",
+          "name": "Docker"
+        },
+        {
+          "uri": "algolia-svgrepo-com.svg",
+          "name": "Algolia",
+          "type": "svg"
+        }
+      ]
+    },
+    {
       "title": "ViaLeads",
       "startDate": "2018",
       "description": "ViaLeads is a 100% cloud-based solution that combines multiple predictive dialers and a scripting tool designed for call centers. It automates your inbound and outbound call campaigns, provides real-time production monitoring, and offers customizable supervision screens. ViaLeads is equipped with powerful call engines, including preview, progressive, predictive, and click-to-call. It also offers on-demand, scheduled, or random recording, campaign reports, and detailed statistics by agent, group, service, hour, day, and month.",
@@ -490,6 +541,39 @@
         "Swagger",
         "Stripe",
         "jwt"
+      ]
+    },
+    {
+      "company": "Delti",
+      "title": "Full-stack engineer",
+      "years": "09.2017 - 09.2018",
+      "icon": "fa-angular",
+      "mainTech": [
+        "Angular 4-5",
+        "Spring Boot"
+      ],
+      "technologies": [
+        "Angular 4-5",
+        "TypeScript",
+        "RxJS",
+        "SCSS",
+        "Java",
+        "Spring Boot",
+        "Flutter",
+        "Dart",
+        "GetX",
+        "Node.js",
+        "Google Cloud",
+        "Firestore",
+        "Cloud Functions",
+        "Cloud Storage",
+        "Git",
+        "Docker",
+        "GitHub Actions",
+        "Algolia",
+        "JUnit",
+        "Mockito",
+        "AssertJ"
       ]
     }
   ]
