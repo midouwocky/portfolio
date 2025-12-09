@@ -294,7 +294,7 @@
           "type": "svg"
         },
         {
-          "class": "devicon-amazonwebservices-original",
+          "class": "devicon-amazonwebservices-plain-wordmark",
           "name": "Amazon web services"
         }
       ]
@@ -341,7 +341,7 @@
           "type": "svg"
         },
         {
-          "class": "devicon-amazonwebservices-original",
+          "class": "devicon-amazonwebservices-plain-wordmark",
           "name": "Amazon web services"
         }
       ]
