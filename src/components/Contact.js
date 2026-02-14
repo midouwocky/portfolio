@@ -1,7 +1,7 @@
 import React, { useRef, useState } from "react";
-import emailjs from "@emailjs/browser";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
+import sendEmail from "../services/email.service";
 
 const Contact = ({ resumeBasicInfo }) => {
   const form = useRef();
@@ -13,16 +13,10 @@ const Contact = ({ resumeBasicInfo }) => {
 
   const [canSend, setCanSend] = useState(true)
 
-  const sendEmail = (e) => {
+  const handleSubmit = (e) => {
     e.preventDefault();
     setCanSend(false);
-    emailjs
-    .sendForm(
-      "service_5fsgl3k",
-      "template_lm0sxif",
-      form.current,
-      "veNm_-dMgTQRYdhSO"
-      )
+    sendEmail(form.current)
       .then(
         (result) => {
           console.log(result.text);
@@ -43,9 +37,9 @@ const Contact = ({ resumeBasicInfo }) => {
           setCanSend(true);
         }
       );
-      // Reset form after submitting
-      form.current.reset();
-    };
+    // Reset form after submitting
+    form.current.reset();
+  };
 
   let sectionName;
   if (resumeBasicInfo) {
@@ -74,7 +68,7 @@ const Contact = ({ resumeBasicInfo }) => {
             {emailStatus.message}
           </div>
         )}
-        <Form ref={form} onSubmit={sendEmail}>
+        <Form ref={form} onSubmit={handleSubmit}>
           <Form.Group className="mb-3" controlId="formBasicName">
             <Form.Label>Name</Form.Label>
             <Form.Control type="text" name="from_name" placeholder="Name" required />
